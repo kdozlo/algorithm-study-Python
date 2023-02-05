@@ -1,0 +1,17 @@
+import sys
+input = lambda : sys.stdin.readline().rstrip()
+
+num = int(input())
+
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+
+a.sort()
+b.sort(reverse=True)
+
+sum = 0
+for i in range(num):
+    sum = sum + a[i]*b[i]
+
+print(sum)
+
