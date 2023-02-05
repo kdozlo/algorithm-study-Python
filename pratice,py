@@ -4,6 +4,6 @@ input = lambda:sys.stdin.readline().rstrip()
 
 numlist = list(map(int, input().split()))
 
-print(numlist)
+print("numlist : ", numlist)
 
 
