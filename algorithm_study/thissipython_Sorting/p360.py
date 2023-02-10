@@ -8,7 +8,4 @@ arry = list(map(int, input().split()))
 
 arry = sorted(arry)
 
-print(arry[n // 2])
-
-
-
+print(arry[(n - 1) // 2])
