@@ -1,3 +1,4 @@
+#https://fre2-dom.tistory.com/436 블로그 참조
 import sys
 input = lambda:sys.stdin.readline().rstrip()
 
@@ -8,7 +9,7 @@ teachers = []
 spaces = []
 
 for i in range(n):
-    map.append(list(map(int, input().split())))
+    map.append(list(input().split()))
     for j in range(n):
         if map[i][j] == 'T':
             teachers.append((i, j))
